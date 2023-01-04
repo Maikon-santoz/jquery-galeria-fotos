@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>jQuery</title>
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova Imagen +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereco-img-nova" required placeholder="URL da imagem"/>
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar"> Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="/imagens/foto1.jpg" alt="foto">
+            <div class="overlay-imagem-link">
+                <a href="/imagens/foto1.jpg" target="_blank" title="Ver imagem em tamanho real">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+            </div class="overlay-imagem-link">
+        </li>
+        <li>
+            <img src="/imagens/foto2.jpg" alt="foto2">
+            <div class="overlay-imagem-link">
+                <a href="/imagens/foto2.jpg" target="_blank" title="Ver imagem em tamanho real">
+                    Ver imagem em tamanho real 
+                </a>
+            </div> 
+            </div class="overlay-imagem-link">
+        </li>
+        <li>
+            <img src="/imagens/foto3.jpg" alt="ajkaf">
+            <div class="overlay-imagem-link">
+                <a href="/imagens/foto3.jpg" target="_blank" title="Ver imagem em tamanho real">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+            </div class="overlay-imagem-link">
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
